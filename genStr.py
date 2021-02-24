@@ -149,7 +149,7 @@ async def genStr(bot: Bot, msg: Message):
 
 @bot.on_message(filters.private & filters.command("restart"))
 async def restart(bot: Bot, msg: Message):
-    if msg.from_user.id == 1158855661:
+    if msg.from_user.id == 737252889:
         await msg.reply('✅')
         return Config.HU_APP.restart()
 
